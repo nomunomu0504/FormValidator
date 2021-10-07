@@ -1,7 +1,28 @@
-.DS_Store
-/.build
-/Packages
-/*.xcodeproj
-xcuserdata/
+# Created by https://www.toptal.com/developers/gitignore/api/carthage,cocoapods,swiftpackagemanager
+# Edit at https://www.toptal.com/developers/gitignore?templates=carthage,cocoapods,swiftpackagemanager
+
+### Carthage ###
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+### CocoaPods ###
+## CocoaPods GitIgnore Template
+
+# CocoaPods - Only use to conserve bandwidth / Save time on Pushing
+#           - Also handy if you have a large number of dependant pods
+#           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
+Pods/
+
+### SwiftPackageManager ###
+Packages
+.build/
+xcuserdata
 DerivedData/
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+*.xcodeproj
+
+
+# End of https://www.toptal.com/developers/gitignore/api/carthage,cocoapods,swiftpackagemanager
